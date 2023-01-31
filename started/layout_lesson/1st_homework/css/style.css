@@ -1,0 +1,19 @@
+
+
+body{
+    justify-content: center;
+    border: 3px red;
+    background-color: rgb(73, 72, 71);
+    color: white;
+}
+
+
+.head__links{
+    border: 2px;
+    border-color: brown;
+}
+
+a{
+    text-decoration: none;
+    border-color: white;
+}
