@@ -1,19 +1,31 @@
-
-
 body{
-    justify-content: center;
-    border: 3px red;
-    background-color: rgb(73, 72, 71);
-    color: white;
+    background-color: rgb(41, 40, 40);
 }
 
+.header{
+    position: relative;
+    margin-top: 50%;
+    margin-left: 50%;
 
-.head__links{
-    border: 2px;
-    border-color: brown;
 }
 
-a{
+.header,  a{
+
+    color: #fff;
+
+}
+
+.head__links a{
     text-decoration: none;
-    border-color: white;
+    padding: 15px 10px;
+    font-size: 11px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#download__link{
+    background-color: rgb(22, 29, 223);
+}
+
+#more__link{
+    border: 2px white solid;
 }
