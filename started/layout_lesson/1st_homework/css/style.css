@@ -2,13 +2,18 @@ body{
     background-color: rgb(41, 40, 40);
 }
 
+
 .header{
-    position: relative;
-    margin-top: 50%;
-    margin-left: 50%;
+    justify-content: center;
+    padding-top: 250px;
+    padding-left: 40%;
 
 }
 
+h1{
+    justify-content: center;
+    padding-left: 66px;
+}
 .header,  a{
 
     color: #fff;
@@ -17,7 +22,7 @@ body{
 
 .head__links a{
     text-decoration: none;
-    padding: 15px 10px;
+    padding: 20px 10px;
     font-size: 11px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
