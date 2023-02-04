@@ -1,0 +1,21 @@
+body{
+    background-image: url(/started/layout_lesson/3rd_homework/image/wave.png);
+    margin: 0;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header__logo{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.header__name{
+    margin-top: 270px;
+    margin-left: 100px;
+}
