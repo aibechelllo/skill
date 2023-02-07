@@ -1,5 +1,7 @@
 body{
     background-image: url(/started/layout_lesson/3rd_homework/image/wave.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
     margin: 0;
     font-family: 'Gilroy', sans-serif;
 }
@@ -48,8 +50,8 @@ h2{
 .cards__item{
     width: 45%;
     max-width: 480px;
-    padding: 0 50px;
-    margin-bottom: 50px;
+    margin: 50px 50px;
+    box-shadow: 1px 1x 1px 1px gray;
 }
 
 .number__cards{
@@ -67,6 +69,7 @@ h2{
     line-height: 1.7;
     font-style: 16px;
     padding-bottom: 30px;
+    height: 180px;
 
 }
 
