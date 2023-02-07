@@ -10,12 +10,67 @@ body{
     margin: 0 auto;
 }
 
+.header{
+    margin-bottom: 45px;
+}
+
 .header__logo{
     font-size: 40px;
     font-weight: 400;
+    margin-top: 50px;
 }
 
 .header__name{
-    margin-top: 270px;
+    margin-top: 170px;
     margin-left: 100px;
+}
+
+.cards{
+    margin: 100px 0;
+    
+}
+
+h2{
+    color: rgb(42, 42, 203);
+    padding-left: 50px;
+}
+
+
+.cards__inner{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    
+
+}
+
+.cards__item{
+    width: 45%;
+    max-width: 480px;
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+
+.number__cards{
+    text-align: right;
+    color: #eaeaea;
+    font-size: 48px;
+    padding-right: 24px;
+    padding-bottom: 30px;
+}
+
+.cards__list{
+    text-decoration: none;
+    padding-left: 50px;
+    list-style: none;
+    line-height: 1.7;
+    font-style: 16px;
+    padding-bottom: 30px;
+
+}
+
+.cards__photo{
+    display: block;
+    max-width: 100%;
 }
