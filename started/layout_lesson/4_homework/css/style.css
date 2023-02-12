@@ -11,6 +11,7 @@ body{
 
 .header{
     padding-top: 36px;
+    padding-bottom: 30px;
 }
 
 .header__inner{
@@ -19,7 +20,7 @@ body{
 
 }
 
-
+  
 .btn {
     text-transform: uppercase;
     background: #3498db;
