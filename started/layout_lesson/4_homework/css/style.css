@@ -16,6 +16,13 @@ body{
     margin: 0 auto;
 }
 
+.header__icon{
+    display: block;
+    width: 115px;
+    height: 44px;
+    fill: rgb(49, 114, 185);
+}
+
 
 
 .header{
@@ -62,8 +69,64 @@ h1{
     margin-bottom: 20px;
 }
 
+.section__testimonial{
+    text-align: center;
+    margin: 200px 0;
+}
 
 
+/* Testimonial job*/
+
+.testimonial__job{
+    margin: 50px 0 200px;
+}
+
+.job__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job__item{
+    width: 25%;
+    max-width: 250px;
+    padding: 60px 10px;
+    border: 1px solid #333;
+    margin: 0 14px;
+}
+
+.job__item:first-child{
+    margin-left: 0;
+}
+
+.job__item:last-child{
+    margin-right: 0;
+}
+
+.job__item:hover{
+    background-color: #4086d3;
+    fill: #fff;
+    color:#fff;
+    transition: 0.5s;
+    border-color: #4086d3;
+}
+
+.job__title{
+    color: #000;
+}
+
+.job__text{
+    line-height: 1.5;
+}
+
+.testimonial__icon{
+    width:86px;
+    height:64px;
+    fill:rgb(49, 114, 185);
+}
+
+.testimonial__icon:hover{
+    fill: #fff;
+}
   
 .btn {
     text-transform: uppercase;
