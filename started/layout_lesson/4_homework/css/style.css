@@ -104,15 +104,26 @@ h1{
 
 .job__item:hover{
     background-color: #4086d3;
-    fill: #fff;
     color:#fff;
     transition: 0.5s;
-    border-color: #4086d3;
+    fill: #fff;
 }
+
+.job__item:hover .testimonial__icon{
+    transition: 0.1s;
+    fill: #fff;
+}
+
+.job__item:hover .job__title{
+    transition: 0.1s;
+color: #fff;
+}
+
 
 .job__title{
     color: #000;
 }
+
 
 .job__text{
     line-height: 1.5;
@@ -120,13 +131,12 @@ h1{
 
 .testimonial__icon{
     width:86px;
-    height:64px;
+    height:66px;
     fill:rgb(49, 114, 185);
 }
 
-.testimonial__icon:hover{
-    fill: #fff;
-}
+
+
   
 .btn {
     text-transform: uppercase;
