@@ -69,6 +69,10 @@ h1{
     margin-bottom: 20px;
 }
 
+h2{
+    color: #414141;
+}
+
 .section__testimonial{
     text-align: center;
     margin: 200px 0;
@@ -110,13 +114,11 @@ h1{
 }
 
 .job__item:hover .testimonial__icon{
-    transition: 0.1s;
     fill: #fff;
 }
 
 .job__item:hover .job__title{
-    transition: 0.1s;
-color: #fff;
+    color: #fff;
 }
 
 
