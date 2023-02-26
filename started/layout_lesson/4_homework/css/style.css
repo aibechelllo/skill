@@ -6,6 +6,10 @@ body{
     
 }
 
+a{
+    text-decoration:none;
+    color: #787878;
+}
 *,
 *::before,
 *::after{
@@ -78,6 +82,10 @@ h1{
 .section__testimonial{
     text-align: center;
     margin: 200px 0;
+}
+
+.section__inner{
+    text-align: center;
 }
 
 
@@ -169,6 +177,11 @@ h1{
     border-bottom: 1px solid #787878;
 }
 
+.review__author{
+    font-size: 16px;
+    color: #000;
+    font-weight: 900;
+}
 
 
 .review__icon{
@@ -207,6 +220,25 @@ h1{
 .contacts__icon{
     width: 26px;
     height: 26px;
+}
+
+.contacts__name{
+    font-size: 16px;
+    color: #000;
+    font-weight: 900;
+    margin: 30px 0 48px;
+}
+
+.contacts__text{
+    padding-right: 50px;
+    line-height: 1.5;
+}
+
+
+/* Feedback */
+
+.feedback{
+    margin: 120px 0;
 }
 
 /* Button */
