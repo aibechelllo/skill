@@ -46,6 +46,23 @@
             </g>
         </symbol>
 
+        <symbol id="gps">
+            <g>
+                <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAaCAQAAAD/Vq+PAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnAhsEJyzVWXQ+AAABLklEQVQoz4WTPWvCUBSGn8ZWhdJBwUEQS4von7Bb/0KXin/EpdjFzc2l4NDFwbWj3QJCKo4dXArWWWoGQfDjdjA5ubnG5L1Lzvs+917OSQKByrT5wkXh4tCmzImydNmhQmtLl6wOFZgYiL8mFHwog3MGUigcMkesEwMpFB24oMicK7l+yyc/3PMY8m6hpe2bUfOiGjPNb4EtxYaK1laFjSQ2LKUYGEMaSLK0yIv9bWBBnbdYa9MLK6jXMJWjF6Q1KM1CkqnFSIISPVLec4oeJUlGUOWgtT6mQZ0GY807UAXoJ7yF/vHIIqsYaEXRv7sZgzX15odnoGF4Rjl+I6A5OfP7fWBvQHvqROjVwF6I1GVoWraM+kR3uB70F/VfBXr2sCcS9I7iLQmCGz64Ns1/lwfslD7FttYAAAAASUVORK5CYII=" />
+            </g>
+        </symbol>
+
+        <symbol id="phone">
+            <g>
+                <image  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAQAAAADQ4RFAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnAhsELAuTpxieAAAA7klEQVQ4y53TvQ4BQRDA8f85EhI9hUZDp5eoRC3Rkig8BYmGyKkUWhUSb6H3BhKFhFqjIsFlFZyPvXVrb6rNJr/M7MysjRcDkmwwCgfBhaoJidDANWN9FthmrIRAmLIJwpwtn8iARXFf5zrQBOb68savTO9s2vJqX0iwIKLPlOAose4/TR9K6EZJj1KcJHYgr2cdCQn2ZHQoxtrHduQ+hqHsZ4Gzjx0oAtDA/TXulg8JrrSxgrdkpGDa5bKYhmF2OGaFKxJaik5+soF6bgXF3DzmBI2741uuv35AGkf6AT3v4cERp0yFLEm2zFg9Lu+TaelrMhlZPQAAAABJRU5ErkJggg==" />
+            </g>
+        </symbol>
+
+        <symbol id="email">
+            <g>
+                <image   xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAATCAQAAADGkM70AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnAhsELhFc84NmAAAA+klEQVQ4y83TsS6DURgG4KeUpLroJBYpwaZzB91ZegN6Ayx6BRazxR104QJ0R8LcRI1sJKamS0XapJ8Faav9qck5y/m+933Gk8KmBdOfJhQ8iKluxx5k5eTUp4APClJWyH88j/R/BS8syqmrkhc6KtjV+oH1HUkpeBSfNIRTc9Y0EmDLDipexTANN5Zl1CbAhlXzTr/mIRpelHCg+w3WZCy7HdiM0NBziKLngV3XPkpehprfaAhnspZcfUxPiqjqjbTG0tC0Lu1EuLQk63xMZwINbWVsS9twP7YxkYZwbFZZe0KaSMNdQladSfwdW0lhMvX/aNqb6z/Jp3dP3zQHzADjsAAAAABJRU5ErkJggg==" />            
+            </g>
+        </symbol>
 
     </svg>
 
@@ -196,10 +213,33 @@
                 <h2 class="section__header">
                     Contacts
                 </h2>
+                <div class="contacts__inner">
+                    <div class="contacts__item">
+                        <svg class="contacts__icon"><use xlink:href="#gps"></use></svg>
+                        <div class="contacts___name">Visit Us</div>
+                        <div class="contacts__text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit.
+                        </div>
+                    </div>
+    
+                    <div class="contacts__item">
+                        <svg class="contacts__icon"><use xlink:href="#phone"></use></svg>
+                        <div class="contacts___name">Call Us</div>
+                        <div class="contacts__text"><a href="tel:+7 (987) 654-32-10">+7 (987) 654-32-10</a></div>
+                        <div class="contacts__text"><a href="tel:+7 (123) 456-78-90">+7 (123) 456-78-90</a></div>
+                    </div>
+    
+                    <div class="contacts__item">
+                        <svg class="contacts__icon"><use xlink:href="#email"></use></svg>
+                        <div class="contacts___name">Email Us</div>
+                        <div class="contacts__text"><a href="mailto:example@example.com">example@example.com</a></div>
+                        <div class="contacts__text"><a href="mailto:support@example.com">support@example.com</a></div>
+                    </div>
+                </div>
             </div>
             <!-- Container -->
         </section>
         <!-- Section Contacts -->
+        <hr>
     </main>
     <!-- Main -->
 

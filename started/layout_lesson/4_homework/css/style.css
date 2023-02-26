@@ -189,6 +189,18 @@ h1{
     margin: 70px 0 170px;
 }
 
+.contacts__inner{
+    margin-top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts__item{
+    width: 33%;
+    max-width: 250px;
+}
+
+
 /* Button */
 .btn {
     text-transform: uppercase;
