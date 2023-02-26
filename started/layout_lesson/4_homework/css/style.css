@@ -179,6 +179,14 @@ h1{
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    margin-top: 30px;
+}
+
+
+/* Contacts */
+
+.contacts{
+    margin: 70px 0 170px;
 }
 
 /* Button */
