@@ -263,6 +263,16 @@ h1{
     margin: 10px;
 }
 
+/* Footer */
+.footer__inner{
+    margin: 45px 0 40px;
+}
+
+.footer__copyright{
+    font-size: 12px;
+}
+
+
 /* Button */
 .btn {
     text-transform: uppercase;
