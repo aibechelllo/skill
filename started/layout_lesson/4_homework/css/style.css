@@ -273,6 +273,12 @@ h1{
 }
 
 
+.social__links{
+    fill:rgb(28, 28, 28);
+    width: 19px;
+    height: 17px;
+}
+
 /* Button */
 .btn {
     text-transform: uppercase;
