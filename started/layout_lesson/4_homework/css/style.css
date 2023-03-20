@@ -36,6 +36,7 @@ a{
 .header{
     padding-top: 36px;
     padding-bottom: 30px;
+    border-bottom: 1px solid #414141;
 }
 
 h2{
@@ -50,6 +51,30 @@ h2{
     justify-content: space-between;
 }
 
+
+
+.nav__list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav__item{
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+.nav__link{
+    padding-bottom: 48px;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav__link:hover{
+    border-bottom: 3px solid #3172b9;
+    color: #3172b9;
+    transition: 0.2s;
+}
 
 /* Section Hero */
 
