@@ -83,8 +83,39 @@ h2{
     position:absolute;
     text-align: left;
     width: 100%;
-    max-width: 585px;
+    max-width: 500px;
     z-index: 1;
+    margin-top: 127px;
+}
+
+
+
+.section__text{
+    margin: 30px 0 35px;
+    font-size: 16px;
+}
+
+.ssl__item{
+    margin-bottom: 14px;
+}
+
+.btn__desc{
+    width: 100%;
+    max-width: 212px;
+    
+}
+
+.btn__description{
+    margin-top: 28px;
+    font-size: 11px;
+    text-align: center;
+    color: #787878;
+
+}
+
+.ssl__icon{
+    width: 14px;
+    height: 17px;
 }
 
 .main__image{
