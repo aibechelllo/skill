@@ -323,8 +323,13 @@ h1{
 }
 
 .social__links:first-child{
-    margin-left: 0;
+    margin-left: 15;
 }
+
+.social__links:hover{
+    fill: #4086d3;
+}
+
 
 /* Button */
 .btn {
