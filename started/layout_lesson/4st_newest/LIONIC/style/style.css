@@ -25,6 +25,7 @@ ul{
     background-color: #3172b9;
     border-radius: 4px;
     cursor: pointer;
+    display: inline-block;
 }
 
 img{
@@ -79,4 +80,16 @@ img{
 .hero-container{
     padding-top: 120px;
     padding-bottom: 130px;
+}
+
+.hero-content{
+    max-width: 100%;
+}
+
+.section-hero-heading{
+    margin-bottom: 20px;
+}
+
+.section-hero-description{
+    margin-bottom: 30px;
 }
