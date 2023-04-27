@@ -193,3 +193,14 @@ img{
 .section-contacts-info{
     max-width: 250px;
 }
+
+.section-contacts-icon{
+     display: block;
+     height: 30px;
+     margin-bottom: 25px;
+     background-repeat: no-repeat;
+     background-size: auto 100%;
+     background-position: top left;
+     background-color: transparent;
+}
+
