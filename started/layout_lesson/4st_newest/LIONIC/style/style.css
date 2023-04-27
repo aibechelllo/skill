@@ -188,10 +188,6 @@ img{
     flex: 1 1 33.33%;
 }
 
-.section-contacts-info{
-    max-width: 250px;
-}
-
 .section-contacts-icon{
      display: block;
      height: 30px;
@@ -203,7 +199,6 @@ img{
     display: block;
     margin-bottom: 40px;
 }
-
 
 /* footer */
 
@@ -221,7 +216,6 @@ img{
 
 }
 
-
 .footer-left{
     display: flex;
     align-items: center;
@@ -236,7 +230,6 @@ img{
     width: 25px;
     height: 20px;
 }
-
 
 .footer-right{
     display: flex;
@@ -268,5 +261,3 @@ img{
     margin-right: 60px;
 }
 
-
-  
