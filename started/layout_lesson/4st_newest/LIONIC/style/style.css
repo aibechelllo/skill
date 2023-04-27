@@ -174,3 +174,22 @@ img{
     margin-right: 15px;
 }
 
+/* section contacts */
+
+.section-contacts{
+    padding-top:  85px;
+    padding-bottom: 95px;
+}
+
+.section-contacts-list{
+    margin-top: 43px; 
+    display: flex;
+}
+
+.section-contacts-item{
+    flex: 1 1 33.33%;
+}
+
+.section-contacts-info{
+    max-width: 250px;
+}
