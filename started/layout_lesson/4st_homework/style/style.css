@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     font-size: 16px;
     color: #000000;
+    line-height: 2;
 }
 
 .container{
@@ -27,6 +28,8 @@ a{
 h2.section-header{
     margin-left: 40px;
 }
+
+
 
 /* btn class */
 
@@ -111,5 +114,85 @@ h2.section-header{
 .about-text{
     width: 888px;
     height: 100%;
-    line-height: 2;
 }
+
+
+/* section services */
+
+.section-services{
+    margin-top: 70px;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 50%;
+}
+
+.services-inner{
+    background-color: #fff;
+    width: 100%;
+    max-width: 573px;
+    border-radius: 15px;
+    margin-bottom: 24px;
+    
+}
+
+.services-inner:nth-child(2n){
+    margin-left: 24px;
+}
+
+.services-description{
+    padding: 26px 126px 35px 45px;
+}
+
+
+
+/* section benefits */
+
+.section-benefits{
+    margin-top: 56px;
+}
+
+.benefits{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 25%;
+}
+
+.benefits-inner{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 276px;
+    margin-bottom: 22px;
+}
+
+.benefits-inner:not(:nth-child(4n)){
+    margin-right: 22px;
+}
+
+.benefits-inner-info{
+    padding: 40px 42px 32px 45px;
+}
+
+
+/* section-hosting */
+
+.section-hosting{
+    margin-top: 52px;
+}
+
+.hosting{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 33.33%;
+}
+
+.hosting-inner{
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+
+
