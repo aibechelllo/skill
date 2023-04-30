@@ -30,7 +30,6 @@ h2.section-header{
 }
 
 
-
 /* btn class */
 
 .btn{
@@ -56,6 +55,26 @@ h2.section-header{
     background-color: #A47312;
 }
 
+.header-phone{
+    margin-left: 40px;
+    display: inline-block;
+    color: #666666;
+}
+
+.header-phone:hover{
+    color: #CC9933;
+}
+
+
+.header-phone:focus{
+    color: #CC9933;
+    border: 1px solid #CC9933;
+}
+
+.header-phone:active{
+    color: #A47312;
+}
+
 
 
 /* Header */
@@ -64,6 +83,11 @@ h2.section-header{
     height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header-top-left{
+    display: flex;
     align-items: center;
 }
 
@@ -192,7 +216,43 @@ h2.section-header{
 .hosting-inner{
     background-color: #fff;
     border-radius: 15px;
+    width: 100%;
+    max-width: 374px;
+    margin-bottom: 24px;
+    height: 440px;
 }
 
+.hosting-inner:not(:nth-child(3n)){
+    margin-right: 24px;
+}
+
+.hosting-inner-info{
+    padding: 0px 35px 25px 35px;
+}
+
+.hosting-price-and-score{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-hostings-img{
+    position: relative;
+}
+
+.all-hostings-btn{
+    position:relative;
+    top: -50px;
+    left: 55px;
+}
+
+h5.hosting-place{
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.hosting-country{
+    margin-bottom: 20px;
+}
 
 
