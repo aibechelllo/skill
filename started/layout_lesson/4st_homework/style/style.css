@@ -35,6 +35,23 @@ h2.section-header{
     border-radius: 10px;
 }
 
+.btn:hover{
+    color: #FFFFFF;
+    background-color: #CC9933;
+    transition: 0.1s;
+}
+
+.btn:focus{
+    color: #FFFFFF;
+    background-color: #CC9933;
+}
+
+.btn:active{
+    color: #FFFFFF;
+    background-color: #A47312;
+}
+
+
 
 /* Header */
 .header-top{
