@@ -122,7 +122,15 @@ h2.section-header{
     border-radius: 15px;
 }
 
+h2.left-heading{
+    font-size: 40px;
+    color: #fff;
+}
 
+h2.right-heading{
+    font-size: 60px;
+    color: #fff;
+}
 
 .nav-list{
     display: flex;
@@ -273,10 +281,13 @@ h2.section-header{
 h5.hosting-place{
     margin-top: 0;
     margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .hosting-country{
     margin-bottom: 20px;
+    color: #999999;
 }
 
 
