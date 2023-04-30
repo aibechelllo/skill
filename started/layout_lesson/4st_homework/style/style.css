@@ -28,6 +28,8 @@ h2.section-header{
     margin-left: 40px;
 }
 
+/* btn class */
+
 .btn{
     color: #CC9933;
     padding: 13px 20px;
@@ -88,8 +90,26 @@ h2.section-header{
 }
 
 /* section special offers */
+
+.section-special-offers{
+    margin-top: 70px;
+}
+
 .special-offers-main{
     display: flex;
     flex: 1 1 50%;
     justify-content: space-between;
+}
+
+
+/* section about */
+
+.section-about{
+    margin-top: 40px;
+}
+
+.about-text{
+    width: 888px;
+    height: 100%;
+    line-height: 2;
 }
