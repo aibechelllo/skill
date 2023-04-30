@@ -55,27 +55,45 @@ h2.section-header{
     background-color: #A47312;
 }
 
-.header-phone{
-    margin-left: 40px;
+.header-phone,
+.personal-cabinet{
     display: inline-block;
     color: #666666;
 }
 
-.header-phone:hover{
+.header-phone:hover,
+.personal-cabinet:hover{
     color: #CC9933;
 }
 
 
-.header-phone:focus{
+.header-phone:focus,
+.personal-cabinet:focus{
     color: #CC9933;
     border: 1px solid #CC9933;
 }
 
-.header-phone:active{
+.header-phone:active,
+.personal-cabinet:active{
     color: #A47312;
 }
 
 
+.services-header-link{
+    color: #CC9933;
+}
+
+.services-header-link:hover{
+    color: #F0BF5F;
+}
+
+.services-header-link:focus{
+    color: #CC9933;
+}
+
+.services-header-link:active{
+    color: #A47312;
+}
 
 /* Header */
 .header-top{
@@ -91,6 +109,10 @@ h2.section-header{
     align-items: center;
 }
 
+.header-icon{
+    margin-right: 40px;
+}
+
 .header-bottom{
     margin-top: 30px;
     display: flex;
@@ -99,6 +121,8 @@ h2.section-header{
     background-color: #FFFFFF;
     border-radius: 15px;
 }
+
+
 
 .nav-list{
     display: flex;
