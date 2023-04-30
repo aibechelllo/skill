@@ -7,12 +7,14 @@ body{
 }
 
 .container{
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.services{
-    display: flex;
-    flex-wrap: wrap;
+h2.section-header{
+    margin-left: 40px;
 }
+
