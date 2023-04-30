@@ -21,16 +21,58 @@ ul{
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 h2.section-header{
     margin-left: 40px;
 }
 
+.btn{
+    color: #CC9933;
+    padding: 13px 20px;
+    border: 1px solid  #CC9933;
+    border-radius: 10px;
+}
+
+
 /* Header */
 .header-top{
+    padding-top: 30px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.header-bottom{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 45px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item:not(:last-child){
+    margin-right: 45px;
+}
+
+.callback-links:not(:last-child){
+    margin-right: 30px;
+}
+
+.nav-link{
+    color: #666666;
+}
+
+/* section special offers */
+.special-offers-main{
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: space-between;
+}
