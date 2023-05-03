@@ -225,6 +225,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 60px 30px;
     border: 1px solid #e4e4e4;
     border-radius: 5px;
 }
@@ -235,6 +236,10 @@ img{
 
 
 .section-do-item-description{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
     text-align: center;
 }
 
@@ -243,7 +248,18 @@ img{
     fill: rgb(49, 114, 185);
     width: 86px;
     height: 66px;
+    margin-bottom: 30px;
 }
+
+.section-do-item-heading{
+    margin-bottom: 18px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+
 
 /* section clients */
 
