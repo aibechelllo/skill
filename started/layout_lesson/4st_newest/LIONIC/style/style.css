@@ -47,13 +47,18 @@ ul{
 .btn{
     font-size: 12px;
     line-height: 1;
-    padding: 15px 16px;
+    padding: 15px 30px;
+    font-weight: 600;
     text-transform: uppercase;
     color: white;
     background-color: #3172b9;
     border-radius: 4px;
     cursor: pointer;
     display: inline-block;
+}
+
+.btn.btn-big{
+    padding: 20px 60px;
 }
 
 img{
@@ -80,12 +85,10 @@ img{
 .header-container{
      display: flex;
      align-items: center;
+     justify-content: space-between;
      height: 100%;
 }
 
-.logo{
-    margin-right: auto;
-}
 
 .main-icon{
     fill: rgb(49, 114, 185);
@@ -95,6 +98,20 @@ img{
 
 .nav-list{
     display: flex;
+    margin: auto;
+}
+
+.nav_item{
+    font-size: 15px;
+    line-height: 1;
+}
+
+.nav_link{
+    color: #1c1c1c;
+}
+
+.nav_item.is-active .nav_link{
+    color: #3172b9;
 }
 
 .nav_item:not(:last-child){
@@ -102,10 +119,15 @@ img{
 }
 
 .header-btn{
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 /* section hero */
+
+.section-hero{
+    background: url("/LIONIC/images/Base.png")  no-repeat wheat;
+    background-size: cover;
+}
 
 .hero-container{
     padding-top: 120px;
@@ -113,19 +135,52 @@ img{
 }
 
 .hero-content{
-    max-width: 100%;
+    max-width: 44%;
 }
 
 .section-hero-heading{
-    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #1c1c1c ;
 }
 
 .section-hero-description{
-    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 33px;
+    color: #787878;
 }
 
 .section-hero-btn-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    line-height: 1;
+    color: #787878;
+    text-transform: uppercase;
     margin-top: 10px;
+    align-items: center;
+}
+
+.section-hero-action{
+    display:inline-block;
+    text-align: center;
+}
+
+.section-hero-ssl-icon{
+    display: inline-block;
+}
+
+.ssl-icon{
+    fill: #787878;
+    width: 14px;
+    height: 17px;
+    margin-right: 10px;
+    transform: translateY(-1px);
 }
 
 
