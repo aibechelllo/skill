@@ -259,6 +259,28 @@ img{
     color: #1c1c1c;
 }
 
+/* section hover */
+
+.section-do-item:hover{
+    background-color: #4086d3;
+    transition: 0.2s;
+    border-radius: 2px solid #3172b9;
+}
+
+.section-do-item:hover .section-do-icon{
+    fill: #fff;
+    transition: 0.2s;
+}
+
+.section-do-item:hover .section-do-item-heading{
+    color: #fff;
+    transition: 0.2s;
+}
+
+.section-do-item:hover .section-do-item-description{
+    color: #fff;
+    transition: 0.2s;
+}
 
 
 /* section clients */
@@ -332,6 +354,7 @@ img{
 .section-contacts{
     padding-top:  85px;
     padding-bottom: 95px;
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .section-contacts-list{
@@ -353,6 +376,21 @@ img{
 .section-contacts-heading{
     display: block;
     margin-bottom: 40px;
+    font-size: 17px;
+    line-height: 1;
+    color: #1c1c1c;
+}
+
+.section-contacts-info{
+    font-size: 14px;
+    line-height: 25px;
+    color: #787878;
+    width: 100%;
+    max-width: 230px;
+}
+
+.section-contacts-link{
+    color: #787878;
 }
 
 /* footer */
@@ -377,6 +415,9 @@ img{
 }
 
 .footer-copyrights{
+    font-size: 12px;
+    line-height: 17px;
+    color: #787878;
     margin-left: 25px;
 }
 
@@ -393,6 +434,10 @@ img{
 
 .footer-nav-list{
     display: flex;
+}
+
+.footer-nav-link{
+    color: #787878;
 }
 
 .footer-social-item{
