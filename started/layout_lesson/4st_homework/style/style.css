@@ -25,13 +25,11 @@
 @font-face{
     font-family: 'Muller';
     src: url("/fonts/MullerRegular.woff") format('woff');
-    font-weight: normal;
 }
 
 @font-face{
     font-family: 'Muller';
     src: url("/fonts/MullerRegular.woff2") format('woff2');
-    font-weight: normal;
 }
 
 @font-face{
@@ -261,6 +259,7 @@ h2.right-heading{
     width: 573px;
     height: 258px;
 }
+
 
 .special-offers-left-second{
     background: url('/Lagoona/crit.png') center no-repeat;
