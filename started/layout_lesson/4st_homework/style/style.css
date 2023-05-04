@@ -76,6 +76,16 @@ a{
 
 h2.section-header{
     margin-left: 40px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+h2{
+    margin-top: 0;
+}
+
+h4{
+    margin: 0;
 }
 
 
@@ -106,27 +116,39 @@ h2.section-header{
 
 .header-phone,
 .personal-cabinet{
+    padding: 5px;
     display: inline-block;
     color: #666666;
 }
 
 .header-phone:hover,
-.personal-cabinet:hover{
+.personal-cabinet:hover,
+.nav-link:hover
+{
     color: #CC9933;
 }
 
 
 .header-phone:focus,
-.personal-cabinet:focus{
+.personal-cabinet:focus,
+.nav-link:focus
+{
     color: #CC9933;
     border: 1px solid #CC9933;
 }
 
 .header-phone:active,
-.personal-cabinet:active{
+.personal-cabinet:active,
+.nav-link:active
+{
     color: #A47312;
 }
 
+
+.services-header{
+    font-weight: 500;
+    font-size: 20px;
+}
 
 .services-header-link{
     color: #CC9933;
@@ -187,13 +209,15 @@ h2.section-header{
 
 h2.left-heading{
     font-size: 40px;
+    font-weight: 700;
     color: #fff;
-    width: 100%;
-    max-width: 420px;
+    line-height: 1;
 }
 
 h2.right-heading{
+    font-weight: 700;
     font-size: 60px;
+    line-height: 1;
     color: #fff;
     width: 100%;
     max-width: 299px;
@@ -213,6 +237,7 @@ h2.right-heading{
 }
 
 .nav-link{
+    padding: 5px;
     color: #666666;
 }
 
@@ -228,12 +253,45 @@ h2.right-heading{
     justify-content: space-between;
 }
 
+
+
+.special-offers-left-first{
+    margin-bottom: 24px;
+    background: url('/Lagoona/maldive.png') center no-repeat;
+    width: 573px;
+    height: 258px;
+}
+
+.special-offers-left-second{
+    background: url('/Lagoona/crit.png') center no-repeat;
+    width: 573px;
+    height: 258px;
+}
+
+.special-offers-right-main{
+    background: url('/Lagoona/lux.png') center no-repeat;
+    width: 573px;
+    height: 540px;
+}
+
+.special-offers-text{
+    padding: 40px 108px 40px 45px;
+}
+
+.special-offers-main-text{
+    padding: 212px 229px 40px 45px;
+}
+
 .special-offers-price{
     font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
     color: #FFFFFF;
 }
 
 .special-offers-btn{
+    font-size: 16px;
+    line-height: 1;
     color: #F0BF5F;
 }
 
@@ -244,6 +302,7 @@ h2.right-heading{
 }
 
 .about-text{
+    margin: 0;
     width: 888px;
     height: 100%;
 }
@@ -268,6 +327,10 @@ h2.right-heading{
     border-radius: 15px;
     margin-bottom: 24px;
     
+}
+
+.services-text{
+    margin: 0;
 }
 
 .services-inner:nth-child(2n){
@@ -298,6 +361,14 @@ h2.right-heading{
     width: 100%;
     max-width: 276px;
     margin-bottom: 22px;
+}
+
+
+.benefits-text{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    margin: 0;
 }
 
 .benefits-inner:not(:nth-child(4n)){
