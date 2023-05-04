@@ -268,14 +268,23 @@ h2.right-heading{
     align-items: center;
 }
 
-.all-hostings-img{
+
+.all-hosting-img{
     position: relative;
+    background: url("/Lagoona/hotels/41.png") center no-repeat;
+    width: 374px;
+    height: 440px;
+    
 }
 
 .all-hostings-btn{
-    position:relative;
-    top: -50px;
-    left: 55px;
+    font-size: 20px;
+    line-height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -50px; 
+    color: #FFFFFF;
 }
 
 h5.hosting-place{
