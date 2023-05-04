@@ -1,10 +1,53 @@
 @font-face{
     font-family: 'Muller';
+    src: url("/fonts/MullerLight.woff") format('woff');
+    font-weight: lighter;
+}
+
+@font-face{
+    font-family: 'Muller';
+    src: url("/fonts/MullerLight.woff2") format('woff2');
+    font-weight: lighter;
+}
+
+@font-face{
+    font-family: 'Muller';
+    src: url("/fonts/MullerMedium.woff") format('woff');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'Muller';
+    src: url("/fonts/MullerMedium.woff2") format('woff2');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'Muller';
+    src: url("/fonts/MullerRegular.woff") format('woff');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Muller';
+    src: url("/fonts/MullerRegular.woff2") format('woff2');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Muller';
     src: url("/fonts/MullerBold.woff") format('woff');
     font-weight: bold;
 }
 
+@font-face{
+    font-family: 'Muller';
+    src: url("/fonts/MullerBold.woff2") format('woff2');
+    font-weight: bold;
+}
+
 body{
+    font-family: 'Muller';
     margin: 0;
     background-color: #E5E5E5;
     box-sizing: border-box;
@@ -145,11 +188,15 @@ h2.section-header{
 h2.left-heading{
     font-size: 40px;
     color: #fff;
+    width: 100%;
+    max-width: 420px;
 }
 
 h2.right-heading{
     font-size: 60px;
     color: #fff;
+    width: 100%;
+    max-width: 299px;
 }
 
 .nav-list{
