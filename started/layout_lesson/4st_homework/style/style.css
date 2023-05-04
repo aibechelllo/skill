@@ -201,6 +201,7 @@ h2.right-heading{
 
 .nav-list{
     display: flex;
+    font-weight: normal;
 }
 
 .nav-item:not(:last-child){
