@@ -1,3 +1,9 @@
+@font-face{
+    font-family: 'Muller';
+    src: url("/fonts/MullerBold.woff") format('woff');
+    font-weight: bold;
+}
+
 body{
     margin: 0;
     background-color: #E5E5E5;
@@ -95,6 +101,20 @@ h2.section-header{
     color: #A47312;
 }
 
+
+
+.special-offers-btn:hover{
+    color: #F0BF5F;
+}
+
+.special-offers-btn:focus{
+    color: #F0BF5F;
+}
+
+.special-offers-btn:active{
+    color: #FFFFFF;
+}
+
 /* Header */
 .header-top{
     padding-top: 30px;
@@ -160,6 +180,14 @@ h2.right-heading{
     justify-content: space-between;
 }
 
+.special-offers-price{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.special-offers-btn{
+    color: #F0BF5F;
+}
 
 /* section about */
 
