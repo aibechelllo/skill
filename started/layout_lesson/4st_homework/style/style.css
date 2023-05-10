@@ -75,7 +75,9 @@ a{
 h2.section-header{
     margin-left: 40px;
     font-weight: 400;
-    line-height: 1;
+    font-size: 40px;
+    line-height: 40px;
+
 }
 
 h2{
@@ -383,6 +385,7 @@ h2.right-heading{
 
 .section-hosting{
     margin-top: 52px;
+    margin-bottom: 70px;
 }
 
 .hosting{
@@ -414,6 +417,10 @@ h2.right-heading{
     align-items: center;
 }
 
+.hosting-price{
+    margin: 0;
+}
+
 
 .all-hosting-img{
     position: relative;
@@ -438,11 +445,25 @@ h5.hosting-place{
     margin-bottom: 16px;
     font-size: 16px;
     font-weight: 400;
+    line-height: 16px;
 }
 
 .hosting-country{
+    margin-top: 0;
     margin-bottom: 20px;
     color: #999999;
 }
 
 
+/* section tour */
+
+.section-tour{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: #E9E9E9;
+    border-radius: 15px;
+}
+
+.tour-form{
+    display: flex;
+}
