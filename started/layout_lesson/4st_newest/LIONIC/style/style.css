@@ -393,6 +393,20 @@ img{
     color: #787878;
 }
 
+
+
+/* section form */
+.section-form{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.form-decription{
+    margin-top: 0;
+    margin-bottom: 65px;
+}
+
 /* footer */
 
 .footer{
