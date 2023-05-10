@@ -407,6 +407,31 @@ img{
     margin-bottom: 65px;
 }
 
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.input,
+.btn-submit{
+    flex: 0 0 calc(25% - 15px);
+    height: 60px;
+    border-radius: 30px;
+}
+
+.input{
+    padding: 0 30px;
+    border: 1px solid #dadada;
+    border-radius: 30px;
+}
+
+.input::placeholder{
+    color: #787878;
+}
+
 /* footer */
 
 .footer{
