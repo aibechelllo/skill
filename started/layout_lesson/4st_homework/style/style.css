@@ -462,8 +462,17 @@ h5.hosting-place{
     padding-bottom: 45px;
     background: #E9E9E9;
     border-radius: 15px;
+    margin-bottom: 70px;
+
+}
+
+.inside{
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .tour-form{
-    display: flex;
+    padding: 31px 28px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
 }
