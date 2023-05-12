@@ -446,27 +446,29 @@
                 <section class="section-tour">
                     <h2 class="section-header">Хочу тур</h2>
                     <form action="https://jsonplaceholder.typicode.com/posts" class="tour-form" method="post">
-                        <label for="city">Город Вылета</label>
-                        <select name="city" id="city">
-                            <option value="city" name="ST">Санкт-Петербург</option>
-                            <option value="city">Москва</option>
-                        </select>
+                        <label for="city">Город Вылета
+                            <select name="city" id="city">
+                                <option value="city" name="ST">Санкт-Петербург</option>
+                                <option value="city">Москва</option>
+                            </select>
+                         </label>
+                        <label for="dest-country">Страна
+                            <select name="dest-country" id="dest-country">
+                                <option value="dest-country">Австралия</option>
+                                <option value="dest-country">Кыргызстан</option>
+                            </select>
+                         </label>
+                        <label for="arrive-date">Дата прибытия
+                            <input type="date" name="arrive-date" id="arrive-date" value="2022-11-22">
+                        </label>
 
-                        <label for="dest-country">Страна</label>
-                        <select name="dest-country" id="dest-country">
-                            <option value="dest-country">Австралия</option>
-                            <option value="dest-country">Кыргызстан</option>
-                        </select>
-
-                        <label for="arrive-date">Дата прибытия</label>
-                        <input type="date" name="arrive-date" id="arrive-date" value="2022-11-22">
-
-                        <label for="nights">Ночей</label>
-                        <input type="number" name="nights" id="nights" value="6">
-
-                        <label for="toursites">Ночей</label>
-                        <input type="number" name="toursites" id="toursites" value="2">
-
+                        <label for="nights">Ночей
+                            <input type="number" name="nights" id="nights" value="6">
+                        </label>
+                        <label for="toursites">Ночей
+                            <input type="number" name="toursites" id="toursites" value="2">
+                        </label>
+                        
                         <button type="submit" class="btn btn-submit">
                             Найти
                         </button>
