@@ -447,28 +447,38 @@
                     <h2 class="section-header">Хочу тур</h2>
                     <div class="inside">
                         <form action="https://jsonplaceholder.typicode.com/posts" class="tour-form" method="post">
-                            <label for="city">Город Вылета
-                                <select name="city" id="city">
-                                    <option value="Saint-Pt">Санкт-Петербург</option>
-                                    <option value="Moscow">Москва</option>
-                                </select>
+                            <label for="city" class="form">
+                                <span class="name-form">Город Вылета
+                                    <select name="city" id="city">
+                                        <option value="Saint-Pt">Санкт-Петербург</option>
+                                        <option value="Moscow">Москва</option>
+                                    </select>
+                                </span>
                              </label>
-                            <label for="dest-country">Страна
-                                <select name="dest-country" id="dest-country">
-                                    <option value="Australia">Австралия</option>
-                                    <option value="Kyrgyzstan">Кыргызстан</option>
-                                </select>
+                            <label for="dest-country" class="form">
+                                <span class="name-form">Страна
+                                    <select name="dest-country" id="dest-country">
+                                        <option value="Australia">Австралия</option>
+                                        <option value="Kyrgyzstan">Кыргызстан</option>
+                                    </select>
+                                </span>
                              </label>
-                            <label for="arrive-date">Дата прибытия
-                                <input type="date" name="arrive-date" id="arrive-date" value="2022-11-22">
+                            <label for="arrive-date" class="form">
+                                <span class="name-form">Дата прибытия
+                                    <input type="date" name="arrive-date" id="arrive-date" value="2022-11-22">
+                                </span>
                             </label>
     
-                            <label for="nights">Ночей
-                                <input type="number" name="nights" id="nights" value="6" min="1" max="30">
+                            <label for="nights" class="form">
+                                <span class="name-form">Ночей
+                                    <input type="number" name="nights" id="nights" value="6" min="1" max="30">
+                                </span>
                             </label>
     
-                            <label for="toursites">Ночей
-                                <input type="number" name="toursites" id="toursites" value="2" min="1" max="30">
+                            <label for="toursites" class="form">
+                                <span class="name-form">Ночей
+                                    <input type="number" name="toursites" id="toursites" value="2" min="1" max="30">
+                                </span>
                             </label>
     
                             <button type="submit" class="btn btn-submit">
@@ -477,6 +487,11 @@
                             
                         </form>
                     </div>
+                </section>
+                <!-- section tour -->
+
+                <section class="section-contacts">
+                    <h2 class="section-header">Контакты</h2>
                 </section>
             </div>
             <!-- container -->
