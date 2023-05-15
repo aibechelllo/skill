@@ -472,9 +472,36 @@ h5.hosting-place{
 }
 
 .tour-form{
-    padding: 31px 28px;
+    display: flex;
+    margin: 0;
+    padding: 31px 28px 20px;
     background-color: #FFFFFF;
     border-radius: 15px;
     justify-content: space-between;
     align-items: center;
+}
+
+
+
+.name-form{
+    margin-right: 41px;
+    padding: 0;
+}
+
+.name-form:last-child(5){
+    margin-right: 51px;
+}
+
+.form-text{
+    display: block;
+    border: none;
+}
+
+.form-date{
+    display: block;
+    border: none;
+}
+
+.btn-submit{
+    padding: 13px 30px;
 }
