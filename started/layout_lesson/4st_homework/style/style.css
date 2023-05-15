@@ -493,15 +493,62 @@ h5.hosting-place{
 }
 
 .form-text{
+    margin-top: 15px;
     display: block;
     border: none;
 }
 
 .form-date{
+    margin-top: 15px;
     display: block;
     border: none;
 }
 
 .btn-submit{
     padding: 13px 30px;
+}
+
+
+
+/* section contacts */
+
+.contacts-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.address-info{
+    width: 100%;
+    max-width: 375px;
+}
+
+.address-header{
+    margin: 0;
+    font-size: 20px;
+    line-height: 20px;
+    font-style: normal;
+}
+
+.address-description{
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.address-item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 23px;
+}
+
+
+.contacts-img{
+    background: url('/Lagoona/contacts-img.png') no-repeat;
+    width: 653px;
+    height: 528px;
 }
