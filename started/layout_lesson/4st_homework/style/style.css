@@ -512,6 +512,10 @@ h5.hosting-place{
 
 /* section contacts */
 
+.section-contacts{
+    margin-bottom: 40px;
+}
+
 .contacts-inner{
     display: flex;
     justify-content: space-between;
@@ -537,13 +541,25 @@ h5.hosting-place{
     font-size: 16px;
     line-height: 24px;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
 }
 
 .address-item{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding-bottom: 23px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.address-inner{
+    display: flex;
+}
+
+.address-number{
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -551,4 +567,70 @@ h5.hosting-place{
     background: url('/Lagoona/contacts-img.png') no-repeat;
     width: 653px;
     height: 528px;
+}
+
+/* footer */
+
+.footer{
+    margin-bottom: 30px;
+    height: 341px;
+    font-size: 16px;
+}
+
+.footer-inner{
+    display: flex;
+    color: #FFFFFF;
+    background-color: #333;
+    border-radius: 15px;
+    padding: 45px;
+    position:relative;
+    z-index: 1;
+}
+
+.footer-logo{
+    position: absolute;
+    left: 738px;
+    right: 176px;
+    top: 129px;
+    z-index: -1;
+}
+
+
+.footer-copyright-info{
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.footer-site-description{
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.full-address{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.footer-left{
+    width: 100%;
+    max-width: 302px;
+}
+
+.footer-address{
+    margin-left: 125px;
+    width: 100%;
+    max-width: 359px;
+    font-style: normal;
+}
+
+.footer-phone{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-mail{
+    display: flex;
+    flex-direction: column;
 }
