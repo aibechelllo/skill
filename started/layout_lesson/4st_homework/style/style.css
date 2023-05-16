@@ -629,13 +629,17 @@ h5.hosting-place{
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+}
 
+.phone-number{
+    padding: 0;
 }
 
 .footer-mail{
     display: flex;
     flex-direction: column;
 }
+
 
 .footer-links{
     margin-left: 300px;
@@ -649,3 +653,11 @@ h5.hosting-place{
     margin-bottom: 0;
 }
 
+
+.footer a{
+    color: #CC9933;
+}
+
+.footer a:hover{
+    color: #F0BF5F;
+}
