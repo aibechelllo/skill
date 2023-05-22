@@ -124,6 +124,7 @@ img{
 
 .nav_link{
     color: #1c1c1c;
+    transition: color .3s ease;
 }
 
 .nav_link:hover{
