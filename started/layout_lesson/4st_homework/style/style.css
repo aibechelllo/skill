@@ -662,3 +662,7 @@ h5.hosting-place{
 .footer a:hover{
     color: #F0BF5F;
 }
+
+.social-items:hover .social-items-link #tripadvicer path{
+    fill: blue;
+}
