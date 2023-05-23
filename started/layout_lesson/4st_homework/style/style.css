@@ -663,6 +663,6 @@ h5.hosting-place{
     color: #F0BF5F;
 }
 
-.social-items:hover .social-items-link #tripadvicer path{
+.social-items:hover .social-items-link  path{
     fill: blue;
 }
