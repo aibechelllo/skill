@@ -661,8 +661,21 @@ h5.hosting-place{
 
 .footer a:hover{
     color: #F0BF5F;
+    
 }
 
 .social-items:hover .social-items-link  path{
-    fill: blue;
+    fill: #CC9933;
+}
+
+.social-items:focus .social-items-link  path{
+    fill: #CC9933;
+}
+
+.social-items:active .social-items-link  path{
+    fill: #A47312;
+}
+
+.footer-logo:hover .footer-logo-link path{
+    fill: #CC9933;
 }
