@@ -1,8 +1,6 @@
 
 body{
     margin: 0;
-    max-width: 1920px;
-    background-color: #fff;
 }
 
 
@@ -22,4 +20,13 @@ h5{
 
 p{
     margin: 0 0 10px;
+}
+
+/* Container */
+
+
+.container{
+    width: 100%;
+    max-width: 1770px;
+    margin: 0 auto;
 }
