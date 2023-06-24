@@ -22,15 +22,38 @@ p{
     margin: 0 0 10px;
 }
 
-li{
+ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Container */
 
 
 .container{
-    width: 100%;
-    max-width: 1770px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header__nav-list{
+    display: flex;
+    margin: auto;
+}
+
+/* footer */
+
+footer{
+    background-color: #000000;
 }
