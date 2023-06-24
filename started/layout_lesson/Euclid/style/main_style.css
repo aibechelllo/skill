@@ -2,6 +2,7 @@
 body{
     margin: 0;
     background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -27,6 +28,10 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Container */
@@ -67,14 +72,25 @@ ul{
 
 .section-hero{
     margin-top: 50px;
+    color: #fff;
 }
 
-.section-hero__content{
+
+
+.section-hero__container{
     border-radius: 32px;
     background: url('/image/section-hero-img/low-angle-photo-of-balconies-2462015\ 1.png') wheat;
     background-position-x: 1200px;
     height: 620px;
 }
+
+.section-hero__content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    width: 843px;
+}
+
 
 /* footer */
 
