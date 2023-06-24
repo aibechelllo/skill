@@ -1,8 +1,11 @@
 
 body{
-    margin: 0;
+    width: 1920px;
+    margin: auto;
     background-color: #E5E5E5;
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
 }
 
 
@@ -34,11 +37,17 @@ a{
     text-decoration: none;
 }
 
+.btn{
+    cursor: pointer;
+    background-color: #FF9900;
+    border-radius: 16px;
+}
+
 /* Container */
 
 
 .container{
-    max-width: 1200px;
+    max-width: 1770px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -52,7 +61,7 @@ a{
     max-height: 100px;
     background-color: #fff;
     border-bottom-left-radius: 32px;
-    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
 }
 
 .header-container{
@@ -79,8 +88,7 @@ a{
 
 .section-hero__container{
     border-radius: 32px;
-    background: url('/image/section-hero-img/low-angle-photo-of-balconies-2462015\ 1.png') wheat;
-    background-position-x: 1200px;
+    background: url('/image/section-hero-img/low-angle-photo-of-balconies-2462015\ 1.png')wheat no-repeat;
     height: 620px;
 }
 
@@ -88,9 +96,29 @@ a{
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 80px;
-    width: 843px;
+    padding-right: 853px;
 }
 
+.section-hero__heading{
+    font-size: 70px;
+    font-weight: bolder;
+    line-height: 85.33px;
+    margin-bottom: 24px;
+}
+
+.section-hero__description{
+    font-size: 24px;
+    line-height: 29.26px;
+    font-weight: 700;
+    margin-bottom: 90px;
+}
+
+.section-hero__btn{
+    padding: 25px 39px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
 
 /* footer */
 
