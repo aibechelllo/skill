@@ -46,6 +46,8 @@ ul{
     height: 100%;
     max-height: 100px;
     background-color: #fff;
+    border-bottom-left-radius: 32px;
+    border-bottom-left-radius: 32px;
 }
 
 .header-container{
@@ -58,6 +60,20 @@ ul{
 .header__nav-list{
     display: flex;
     margin: auto;
+}
+
+
+/* main */
+
+.section-hero{
+    margin-top: 50px;
+}
+
+.section-hero__content{
+    border-radius: 32px;
+    background: url('/image/section-hero-img/low-angle-photo-of-balconies-2462015\ 1.png') wheat;
+    background-position-x: 1200px;
+    height: 620px;
 }
 
 /* footer */
