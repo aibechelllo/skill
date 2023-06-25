@@ -37,6 +37,12 @@ a{
     text-decoration: none;
 }
 
+.section-heading{
+    font-size: 48px;
+    line-height: 58.51px;
+    font-weight: 400;
+}
+
 .btn{
     cursor: pointer;
     background-color: #FF9900;
@@ -123,6 +129,19 @@ a{
 
 .section-about{
     margin-top: 59px;
+}
+
+.section-about__content{
+    margin-bottom: 50px;
+}
+
+.section-about__section-heading{
+    margin-bottom: 20px;
+}
+
+.section-about__description{
+    width: 100%;
+    max-width: 1235px;
 }
 
 /* footer */
