@@ -144,6 +144,15 @@ a{
     max-width: 1235px;
 }
 
+.section-about__bottom-left-content{
+    background: url('/image/section-about-img/Rectangle\ 2.png') no-repeat;
+    height: 622px;
+}
+
+.section-about__bottom-left-inner{
+    display: flex;
+}
+
 /* footer */
 
 footer{
