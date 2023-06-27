@@ -53,7 +53,7 @@ a{
 
 
 .container{
-    max-width: 1770px;
+    max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -144,15 +144,41 @@ a{
     max-width: 1235px;
 }
 
+.section-about__bottom-content{
+    display: flex;
+    flex: 0 0 50%;
+}
+
 .section-about__bottom-left-content{
     background: url('/image/section-about-img/Rectangle\ 2.png') no-repeat;
     height: 622px;
+    width: 100%;
+    max-width: 868px;
+    border-radius: 32px;
 }
 
 .section-about__bottom-left-inner{
     display: flex;
+    flex: 0 0 50%;
+    justify-content: space-between;
+    padding: 50px;
+
 }
 
+.section-about__bottom-left-text{
+    width: 433px;
+    color: #fff;
+}
+
+
+.section-about__bottom-right-content{
+    margin-left: 32px;
+}
+
+.section-about__bottom-right-inner{
+    display: flex;
+    padding: 65px 118px 65px 60px;
+}
 /* footer */
 
 footer{
