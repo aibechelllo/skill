@@ -94,7 +94,8 @@ a{
 
 .section-hero__container{
     border-radius: 32px;
-    background: url('/image/section-hero-img/low-angle-photo-of-balconies-2462015\ 1.png')wheat no-repeat;
+    background: url('/image/section-hero-img/low-angle-photo-of-balconies-2462015\ 1.png')wheat no-repeat ;
+    background-size: cover;
     height: 620px;
 }
 
@@ -176,8 +177,14 @@ a{
 }
 
 .section-about__bottom-right-inner{
+    border: 1px solid #CACACA;
+    border-radius: 32px;
     display: flex;
     padding: 65px 118px 65px 60px;
+}
+
+.section-about__bottom-right-inner:first-child{
+    margin-bottom: 32px;
 }
 /* footer */
 
