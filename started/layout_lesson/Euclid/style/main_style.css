@@ -148,6 +148,7 @@ a{
 .section-about__bottom-content{
     display: flex;
     flex: 0 0 50%;
+
 }
 
 .section-about__bottom-left-content{
@@ -180,12 +181,30 @@ a{
     border: 1px solid #CACACA;
     border-radius: 32px;
     display: flex;
-    padding: 65px 118px 65px 60px;
+    padding: 65px 80px 65px 60px;
 }
 
 .section-about__bottom-right-inner:first-child{
     margin-bottom: 32px;
 }
+
+.section-about__bottom-right-icon{
+    width: 195px;
+    height: 165px;
+}
+
+.section-about__bottom-right-info{
+    margin-left: 50px;
+}
+
+.section-about__bottom-header{
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 29.26px;
+}
+
+
+
 /* footer */
 
 footer{
