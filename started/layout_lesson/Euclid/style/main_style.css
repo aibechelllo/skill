@@ -221,11 +221,50 @@ a{
 }
 
 .section-how__steps-header{
-    font-size: 32px;
+    font-size: 24px;
     line-height: 32px;
     margin-bottom: 8px;
 }
 
+.section-how__steps-inner{
+    display: flex;
+    flex: 0 0 50%;
+}
+
+.section-how__steps-inside{
+    width: 100%;
+    max-width: 758px;
+    margin-right: 142px;
+}
+
+.section-how__steps-description{
+    margin-bottom: 18px;
+}
+
+.section-how__btn{
+    padding: 20px 38px;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+
+.section-how__btn-more{
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-right: 32px;
+}
+
+.section-how__btn-treaty{
+    font-weight: 400;
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: #E5E5E5;
+}
+
+.section-how__steps-image{
+    background: url('/image/section-how-img/1st.png') no-repeat;
+    width: 870px;
+    height: 460px;
+}
 
 /* footer */
 
