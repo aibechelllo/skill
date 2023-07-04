@@ -130,7 +130,7 @@ a{
 
 .section-about{
     margin-top: 59px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .section-about__content{
@@ -205,6 +205,26 @@ a{
 }
 
 
+/* section how */
+
+.section-how__section-heading{
+    margin-bottom: 50px;
+}
+
+.section-how__steps-list{
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.section-how__steps-item:not(:last-child){
+    margin-right: 85px;
+}
+
+.section-how__steps-header{
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
 
 /* footer */
 
