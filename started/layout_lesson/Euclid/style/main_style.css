@@ -207,6 +207,10 @@ a{
 
 /* section how */
 
+.section-how{
+    margin-bottom: 100px;
+}
+
 .section-how__section-heading{
     margin-bottom: 50px;
 }
@@ -264,6 +268,12 @@ a{
     background: url('/image/section-how-img/1st.png') no-repeat;
     width: 870px;
     height: 460px;
+}
+
+
+/* section faq */
+.section-faq{
+    margin-bottom: 100px;
 }
 
 /* footer */
