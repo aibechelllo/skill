@@ -280,4 +280,60 @@ a{
 
 footer{
     background-color: #000000;
+    color: #CACACA;
+}
+
+.footer-inner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex: 0 0 33%;
+}
+
+
+.footer-left__social-list{
+    display: flex;
+}
+
+
+.footer-center{
+    margin-left: 349px;
+    margin-right: 236px;
+}
+
+
+.footer-center__feedback-form{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    background-color: #414141;
+}
+
+.input:not(:nth-last-child(2)){
+    border-radius: 16px;
+    margin-bottom: 25px;
+    height: 55px;
+}
+
+.input:nth-last-child(2){
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.btn-submit{
+    width: 100%;
+    max-width: 269px;
+    padding: 19px 38px 19px 38px;
+    margin: 0 auto;
+}
+
+.footer-right{
+    width: 100%;
+    max-width: 363px;
+    padding-top: 87px;
+    padding-bottom: 87px;
+    
 }
