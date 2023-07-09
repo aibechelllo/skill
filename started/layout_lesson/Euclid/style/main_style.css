@@ -79,9 +79,22 @@ a{
 
 .header__nav-list{
     display: flex;
-    margin: auto;
 }
 
+.header__nav-item{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    color: #000000;
+}
+
+.header__nav-link:not(:nth-last-child(1)){
+    margin-right: 85px;
+}
+
+.header__nav-link:last-child{
+    margin-right: 260px;
+}
 
 /* main */
 
@@ -274,6 +287,61 @@ a{
 /* section faq */
 .section-faq{
     margin-bottom: 100px;
+}
+
+.section-faq__section-heading{
+    margin-bottom: 32px;
+}
+
+.section-faq__questinos-accordeon-button{
+    background-color: #E5E5E5;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-top: 1px solid #CACACA;
+    border-bottom: 1px solid #CACACA;
+    outline: none;
+    transition: 0.4s;
+}
+
+.section-faq__questinos-accordeon-button:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+
+.section-faq__questinos-accordeon-text{
+    width: 100%;
+    max-width: 1003px;
+    color: #000000;
+    display: none;
+    overflow: hidden;
+}
+
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 /* footer */
