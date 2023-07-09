@@ -290,9 +290,23 @@ footer{
     flex: 0 0 33%;
 }
 
+.footer-left__nav{
+    margin-bottom: 90px;
+}
+
+.footer-left__nav-link{
+    font-size: 18px;
+    line-height: 36px;
+    color: #CACACA;
+}
+
 
 .footer-left__social-list{
     display: flex;
+}
+
+.footer-left__social-item:not(:nth-last-child(1)){
+    margin-right: 25px;
 }
 
 
