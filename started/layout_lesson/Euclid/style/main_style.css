@@ -74,14 +74,31 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 .header__nav-list{
     display: flex;
 }
 
+.header__nav-link:hover{
+    border-bottom: 2px solid #FF9900;
+}
+
+.header__nav-link:focus{
+    border: 2px solid #FF9900;
+}
+
+.header__nav-link:active{
+    border-bottom: 2px solid #E1670E;
+    color: #E1670E;
+}
+
+
+
 .header__nav-item{
+    align-items: center;
     font-size: 18px;
     font-weight: 600;
     line-height: 21.94px;
