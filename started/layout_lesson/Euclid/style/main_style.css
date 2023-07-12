@@ -154,6 +154,20 @@ a{
     font-weight: 700;
     color: #fff;
 }
+
+.section-hero__btn:hover{
+    background-color: #FFB84D;
+}
+
+.section-hero__btn:focus{
+    background-color: #FFB84D;
+}
+
+.section-hero__btn:active{
+    background-color: #E1670E;
+}
+
+
 /* section hero */
 
 .section-about{
@@ -190,15 +204,29 @@ a{
 
 .section-about__bottom-left-inner{
     display: flex;
+    align-items: center;
+    position: relative;
+    top: 416px;
     flex: 0 0 50%;
     justify-content: space-between;
     padding: 50px;
-
+    background-color: #00000080;
+    border-radius: 32px;
 }
+
 
 .section-about__bottom-left-text{
     width: 433px;
     color: #fff;
+}
+
+.section-about__bottom-left-button{
+    font-size: 16px;
+    line-height: 19.5px;
+    padding: 19px 38px 19px 38px;
+    border: 3px solid #FF9900;
+    color: #fff;
+    background-color:transparent;
 }
 
 
