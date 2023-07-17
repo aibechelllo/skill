@@ -1,7 +1,8 @@
 
 body{
-    width: 1920px;
-    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
     background-color: #E5E5E5;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -545,12 +546,17 @@ footer{
 /* media 768px */
 @media(max-width:768px){
 
+    .header{
+        max-width: 768px;
+        width: 100%;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
     .container{
         width: 100%;
-        margin-right: 50px;
-        margin-left: 50px;
-        top: 0;
-        left: auto;
+        max-width: 668px;
+        margin: 0 auto;
     }
 
     .header__logo{
@@ -595,12 +601,12 @@ footer{
     /* main */
 
     .section-about__description{
-        width: 100%;
-        max-width: 668px;
+
     }
 
     .section-about__bottom-content{
         display: block;
+
     }
 
 
@@ -615,8 +621,18 @@ footer{
         display: block;
     }
 
+    .footer-left{
+        position: relative;
+        top: 400px
+    }
+
     .footer-left__nav-list{
         display: none;
+    }
+
+    .footer-center{
+        margin: 0 auto;
+        padding: 50px 177px 248px 50px;
     }
 
     .footer-right{
