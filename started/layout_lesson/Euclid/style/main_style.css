@@ -402,6 +402,7 @@ a{
     background: url('/image/section-how-img/1st.png') no-repeat;
     width: 870px;
     height: 460px;
+    float: right;
 }
 
 
@@ -609,21 +610,53 @@ footer{
 
     }
 
+    .section-about__bottom-left-content{
+        margin-bottom: 85px;
+    }
 
+    .section-about__bottom-left-inner{
+        top: 385px;
+    }
+
+    .section-about__bottom-right-content{
+        margin-left: 0;
+    }
+    
     .section-how__steps-inner{
         display: block;
     }
 
+    .section-how__steps-list
+    {
+        justify-content: space-between;
+    }
+
+
+    .section-how__steps-image{
+        height: 284px;
+        width: 668px;
+        border-radius: 24px;
+        margin-bottom: 38px;
+    }
+
+    .section-how__steps-description{
+        margin-bottom: 25px;
+    }
 
     /* footer */
 
     .footer-inner{
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .footer-left{
         position: relative;
-        top: 400px
+        top: -190px
+    }
+
+    .footer-left__nav{
+        margin: 0;
     }
 
     .footer-left__nav-list{
@@ -631,6 +664,7 @@ footer{
     }
 
     .footer-center{
+        max-width: 100%;
         margin: 0 auto;
         padding: 50px 177px 248px 50px;
     }
