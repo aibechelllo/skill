@@ -1,7 +1,5 @@
 
 body{
-    width: 100%;
-    max-width: 1920px;
     margin: 0 auto;
     background-color: #E5E5E5;
     font-family: 'Montserrat', sans-serif;
@@ -154,7 +152,7 @@ a{
     max-width: 837px;
     position: absolute;
     top: 210px;
-    left: 150px;
+    left: 300px;
     z-index: 1;
 }
 
@@ -599,6 +597,7 @@ footer{
         width: 100%;
         max-width: 588px;
         padding: 10px 40px;
+        left: 100px;
     }
 
     .heading{
