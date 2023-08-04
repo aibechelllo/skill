@@ -130,6 +130,7 @@ a{
 
 
 .section-hero__container-swiper-image{
+    position: relative;
     border-radius: 32px;
     background-size: cover;
     height: 620px;
@@ -149,10 +150,12 @@ a{
 
 
 .section-hero__content{
-    position: relative;
-    top: -500px;
-    padding-left: 80px;
-    padding-right: 853px;
+    width: 100%;
+    max-width: 837px;
+    position: absolute;
+    top: 210px;
+    left: 150px;
+    z-index: 1;
 }
 
 .section-hero__heading{
@@ -595,7 +598,7 @@ footer{
     .section-hero__content{
         width: 100%;
         max-width: 588px;
-        padding: 160px 40px;
+        padding: 10px 40px;
     }
 
     .heading{
