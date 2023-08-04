@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js">
+    </script>
+
     <title>Euclid</title>
 </head>
 <body>
@@ -63,11 +67,36 @@
     <main class="main">
         <section class="section-hero">
             <div class="container section-hero__container">
-                <div class="section-hero__content">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="section-hero__container-swiper-image" id="bg-image-1"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="section-hero__container-swiper-image" id="bg-image-2"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="section-hero__container-swiper-image" id="bg-image-3"></div>
+                    </div>
+                    ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                </div>
+ 
+                <!-- <div class="section-hero__content">
                     <h1 class="heading section-hero__heading">Проектные решения любой сложности</h1>
                     <p class="section-hero__description">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
                     <a href="" class="btn section-hero__btn">Заказать расчет</a>
-                </div>
+                </div> -->
             </div>
             <!-- container  -->
         </section>
@@ -342,5 +371,22 @@
         <!-- container -->
     </footer>
     <!-- footer -->
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            });
+    </script>
 </body>
 </html>

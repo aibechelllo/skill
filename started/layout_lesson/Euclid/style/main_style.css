@@ -121,16 +121,36 @@ a{
 
 
 
-.section-hero__container{
+/* .section-hero__container{
     border-radius: 32px;
     background: url('/image/section-hero-img/low-angle-photo-of-balconies-2462015\ 1.png')wheat no-repeat ;
     background-size: cover;
     height: 620px;
+} */
+
+
+.section-hero__container-swiper-image{
+    border-radius: 32px;
+    background-size: cover;
+    height: 620px;
 }
 
+#bg-image-1{
+    background-image: url('/image/section-hero-img/apartment-apartment-building-architecture-building-323705\ 2.png');
+}
+
+#bg-image-2{
+    background-image: url('/image/section-hero-img/brown-and-blue-glass-building-2093076\ 2.png');
+}
+
+#bg-image-3{
+    background-image: url('/image/section-hero-img/low-angle-photo-of-balconies-2462015\ 1.png');
+}
+
+
 .section-hero__content{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    position: relative;
+    top: -500px;
     padding-left: 80px;
     padding-right: 853px;
 }
@@ -172,7 +192,6 @@ a{
 /* section hero */
 
 .section-about{
-    margin-top: 59px;
     margin-bottom: 100px;
 }
 
