@@ -317,7 +317,9 @@ a{
     margin-bottom: 45px;
 }
 
-.section-how__steps-link{
+.section-how__steps-btn{
+    border: none;
+    background-color: inherit;
     padding: 5px;
     font-size: 18px;
     line-height: 21.94px;
@@ -325,24 +327,24 @@ a{
     margin-right: 85px;
 }
 
-.section-how__steps-link:hover{
+.section-how__steps-btn:hover{
     color: #FF9900;
     transition: 0.2s;
 }
 
-.section-how__steps-link:focus{
+.section-how__steps-btn:focus{
     border: 1px solid #FF9900;
     transition: 0.2s;
 }
 
-.section-how__steps-link:active{
+.section-how__steps-btn:active{
     color: #E1670E;
     transition: 0.2s;
 }
 
 
 
-.section-how__steps-link:last-child{
+.section-how__steps-item:last-child{
     margin-right: 0;
 }
 
