@@ -14,6 +14,16 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js">
     </script>
 
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+    $( function() {
+    $( ".accordion" ).accordion();
+    } );
+    </script>
+
     <title>Euclid</title>
 </head>
 <body>
@@ -214,7 +224,7 @@
                     Часто задаваемые вопросы
                 </h2>
                 <div class="section-faq__questions">
-                    <div class="section-faq__questions-content">
+                    <div class="accordion section-faq__questions-content">
                         <button class="section-faq__questinos-accordeon-button">Из чего формируется конечная стоимость проекта?</button>
                         <div class="panel section-faq__questinos-accordeon-text">
                             <p>Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас 
