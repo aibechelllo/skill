@@ -422,12 +422,23 @@ a{
 }
 
 .section-how__steps-image{
-    background: url('/image/section-how-img/1st.png') no-repeat;
     width: 870px;
     height: 460px;
     float: right;
 }
 
+#section-how-steps-info-item-1{
+    background: url('/image/section-how-img/1st.png') no-repeat;
+}
+
+
+.section-how__steps-info-item{
+    display: none;
+}
+
+.section-how__steps-info-item-active{
+    display: block;
+}
 
 /* section faq */
 .section-faq{
