@@ -431,6 +431,18 @@ a{
     background: url('/image/section-how-img/1st.png') no-repeat;
 }
 
+#section-how-steps-info-item-2{
+    background: url('/image/section-how-img/2.png') no-repeat;
+}
+
+#section-how-steps-info-item-3{
+    background: url('/image/section-how-img/3.png') no-repeat;
+}
+
+#section-how-steps-info-item-4{
+    background: url('/image/section-how-img/4.png') no-repeat;
+}
+
 
 .section-how__steps-info-item{
     display: none;
