@@ -357,6 +357,7 @@ a{
 .section-how__steps-inner{
     display: flex;
     flex: 0 0 50%;
+    flex-direction: column;
 }
 
 .section-how__steps-inside{
