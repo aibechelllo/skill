@@ -370,6 +370,11 @@ a{
     margin-bottom: 18px;
 }
 
+.tabs__btn{
+    position: relative;
+    top: 40px;
+}
+
 .section-how__btn{
     padding: 20px 38px;
     font-size: 16px;
