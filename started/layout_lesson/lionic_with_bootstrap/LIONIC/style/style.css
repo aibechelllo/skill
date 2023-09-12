@@ -218,11 +218,9 @@ img{
 
 .section-do-list{
     margin-top: 50px;
-    display: flex;
 }
 
 .section-do-item{
-    flex: 1 1 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -233,9 +231,9 @@ img{
     
 }
 
-.section-do-item:not(:last-child){
+/* .section-do-item:not(:last-child){
     margin-right: 30px;
-}
+} */
 
 
 .section-do-item-description{
@@ -295,12 +293,11 @@ img{
     margin-bottom: 40px;
 }
 
-.section-clients-list{
+.section-clients-column{
     display: flex;
 }
 
 .section-clients-item{
-    flex: 1 1 33.33%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -309,9 +306,9 @@ img{
     padding: 50px 35px 30px;
 }
 
-.section-clients-item:not(:last-child){
+/* .section-clients-item:not(:last-child){
     margin-right: 28px;
-}
+} */
 
 .section-clients-testimonial{
     margin-top: 0;
