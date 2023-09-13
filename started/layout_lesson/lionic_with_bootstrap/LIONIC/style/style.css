@@ -356,12 +356,9 @@ img{
 
 .section-contacts-list{
     margin-top: 43px; 
-    display: flex;
 }
 
-.section-contacts-item{
-    flex: 1 1 33.33%;
-}
+
 
 .section-contacts-icon{
      display: block;
